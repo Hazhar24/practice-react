@@ -1,11 +1,11 @@
 import { FaEllipsisV } from "react-icons/fa";
 import { AiOutlineDelete } from "react-icons/ai";
-import { FcCalendar, FcFile, FcServices, FcSms } from "react-icons/fc";
+import { FcCalendar, FcFile, FcServices } from "react-icons/fc";
 import { FcAbout, FcWorkflow } from "react-icons/fc";
 import { RiEdit2Line } from "react-icons/ri";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 
-export const Project = () => {
+const Project = () => {
   const projects = [
     {
       id: "1",
@@ -23,7 +23,7 @@ export const Project = () => {
             <span className="h-5">List of projects</span>
           </div>
         </div>
-        <div className="flex mt-5 m-20 border-b h-11 text-center flex-col">
+        <div className="flex mt-5 m-20 border-b h-11 text-center flex-col  ">
           <table className="table w-full overflow-visible hover:g">
             <thead>
               <tr>
@@ -90,3 +90,4 @@ export const Project = () => {
     </>
   );
 };
+export default Project;

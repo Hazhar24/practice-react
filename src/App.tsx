@@ -2,7 +2,8 @@ import "./App.css";
 import Hero from "./components/Layout/Hero";
 import Login from "./components/Layout/login";
 import Navbar from "./components/Layout/Navbar";
-import { Project } from "./components/Layout/project";
+import Project from "./components/Layout/project";
+
 
 const App = () => {
   return (
